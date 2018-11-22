@@ -1,9 +1,9 @@
-# la-chat-app
-LA Chat app is an Ionic peer-to-peer video chat web app.
+# LA Chat app
+LA Chat app is an Ionic based peer-to-peer video chat web app.
 
-It uses [Simple Peer](https://github.com/feross/simple-peer) and [Simple Websocket](https://github.com/feross/simple-websocket) to communicate with [LA Chat server](https://github.com/laimagine/la-chat-server).
+It uses [Simple Peer](https://github.com/feross/simple-peer) and [Simple Websocket](https://github.com/feross/simple-websocket) along with with [LA Chat server](https://github.com/laimagine/la-chat-server).
 
-All the [WebRTC](https://en.wikipedia.org/wiki/WebRTC) based peer to peer video chat examples show browsers side-by-side, on the same computer. This project builds on those examples and provides a more practical solution where the callers are on different computers.
+All the [WebRTC](https://en.wikipedia.org/wiki/WebRTC) based peer to peer video chat examples show browsers on the same computer. This project builds on those examples and provides a more practical solution where the callers are on many different computers.
 
 ### Pre-requisistes
 - Install [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/)

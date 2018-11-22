@@ -9,6 +9,8 @@ All the [WebRTC](https://en.wikipedia.org/wiki/WebRTC) based peer to peer video 
 - Install [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/)
 - Install [Ionic](https://ionicframework.com/) though this project can be adapted to run on plain javascript
 - [LA Chat server](https://github.com/laimagine/la-chat-app) to be running on `https://127.0.0.1:8443`
+- Make sure that `http://<server-ip>:8100` is allowed by router/firewall
+- Make sure browser has permissions to use camera and mic (on chrome, visit: chrome://settings/content?search=camera and update settings)
 
 ### Setup
 - Clone the repository
@@ -19,7 +21,9 @@ All the [WebRTC](https://en.wikipedia.org/wiki/WebRTC) based peer to peer video 
 - Access the url `http://<server-ip>:8100`
 
 ### FAQs
-- If testing using Chrome on `localhost` with a self-signed certificate, paste `chrome://flags/#allow-insecure-localhost` in browser and change the setting to enable
+- How to connect to [LA Chat server]() that is using self signed certificate?
+  - paste `chrome://flags/#allow-insecure-localhost` in browser and change setting to enable
+  - go to https://<server-ip>:8443 and follow the prompts to allow unsigned certificates
 
 ### Special thanks to:
 - https://github.com/feross/simple-peer

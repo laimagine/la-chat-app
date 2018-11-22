@@ -1,0 +1,7 @@
+{
+  "name": "la-imagine-chat",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

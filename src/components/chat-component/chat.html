@@ -1,0 +1,10 @@
+<div class="la-camera-item-center">
+  <div class="la-chat-video" *ngIf="remoteStream">
+    <video [srcObject]="remoteStream" width="320" muted="true" autoplay></video>
+  </div>
+  <div class="la-chat-video" *ngIf="localStream">
+    <video [srcObject]="localStream" width="320" muted="true" autoplay></video>
+  </div>
+  <button ion-button color="danger" *ngIf="socket" (click)="hangup()">Hangup</button>
+  <ion-input [(ngModel)]="ip"></ion-input>
+</div>

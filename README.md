@@ -18,12 +18,14 @@ All the [WebRTC](https://en.wikipedia.org/wiki/WebRTC) based peer to peer video 
 - Run `ionic server`
 
 ### Use
-- Access the url `http://<server-ip>:8100`
+- Visit `http://<server-ip>:8100`
+- The first user that connects to this server has to wait till another user connects
+- As soon as another user visits `http://<server-ip>:8100`, the two 
 
 ### FAQs
 - How to connect to [LA Chat server]() that is using self signed certificate?
   - paste `chrome://flags/#allow-insecure-localhost` in browser and change setting to enable
-  - go to https://<server-ip>:8443 and follow the prompts to allow unsigned certificates
+  - go to `https://<server-ip>:8443` and follow the prompts to allow unsigned certificates
 
 ### Special thanks to:
 - https://github.com/feross/simple-peer

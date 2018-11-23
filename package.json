@@ -2,6 +2,7 @@
   "name": "la-imagine-chat",
   "version": "1.0.0",
   "author": "LA Chat by LA Imagine",
+  "description": "LA Chat app is an Ionic based peer-to-peer video chat web app by LA Imagine.",
   "homepage": "https://www.laimagine.com/",
   "private": true,
   "scripts": {
@@ -40,6 +41,5 @@
     "hoek": ">=4.2.1",
     "@ionic/app-scripts": "3.2.0",
     "typescript": "~2.6.2"
-  },
-  "description": "An Ionic project"
+  }
 }

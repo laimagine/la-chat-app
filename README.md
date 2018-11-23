@@ -26,6 +26,8 @@ All the [WebRTC](https://en.wikipedia.org/wiki/WebRTC) based peer to peer video 
 - How to connect to [LA Chat server](https://github.com/laimagine/la-chat-server) that is using self signed certificate?
   - paste `chrome://flags/#allow-insecure-localhost` in browser and change setting to enable
   - go to `https://<server-ip>:8443` and follow the prompts to allow unsigned certificates
+- How to change the signaling server url?
+  - Open `src/components/chat-component/chat-component.ts` and update `SOCKET_SERVER` constant
 
 ### Special thanks to:
 - https://github.com/feross/simple-peer

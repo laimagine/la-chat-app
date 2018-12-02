@@ -13,13 +13,11 @@ import { MyApp } from './app.component';
 import { ChatPage } from '../pages/features/chat/chat-page';
 
 // Components
-import { CameraComponent } from '../components/camera-component/camera-component';
 import { ChatComponent } from '../components/chat-component/chat-component';
 
 @NgModule({
   declarations: [
     MyApp,
-    CameraComponent,
     ChatComponent,
     ChatPage
   ],
@@ -30,7 +28,6 @@ import { ChatComponent } from '../components/chat-component/chat-component';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    CameraComponent,
     ChatPage
 ],
   providers: [
